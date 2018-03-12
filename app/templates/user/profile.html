@@ -1,0 +1,14 @@
+{% extends 'common/base.html' %}
+
+{% block title %}个人中心{% endblock %}
+
+{% block page_content %}
+<div class="form-group">
+    <label for="userinput">用户名</label>
+    <input type="text" class="form-control" id="userinput" readonly value="{{current_user.username}}">
+</div>
+<div class="form-group">
+    <label for="emailinput">邮箱</label>
+    <input type="email" class="form-control" id="emailinput" readonly value="{{current_user.email}}">
+</div>
+{% endblock %}
