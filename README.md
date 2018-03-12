@@ -2,41 +2,42 @@
 ### A small flask blog
 ###### 1、简介: flask+python3.6+sqllite+pycharm
 ###### 2、项目目录结构：
-+--app  
-|      +--config.py  
-|      +--email.py  
-|      +--extensions.py
-|      +--forms
-|      |      +--user.py
-|      |      +--__init__.py
-|      +--models
-|      |      +--posts.py
-|      |      +--user.py
-|      |      +--__init__.py
-|      +--static
-|      +--templates
-|      |      +--common
-|      |      |      +--base.html
-|      |      +--email
-|      |      |      +--account_activate.html
-|      |      +--errors
-|      |      |      +--404.html
-|      |      +--main
-|      |      |      +--index.html
-|      |      +--user
-|      |      |      +--change_password.html
-|      |      |      +--login.html
-|      |      |      +--profile.html
-|      |      |      +--register.html
-|      +--views
-|      |      +--main.py
-|      |      +--posts.py
-|      |      +--user.py
-|      |      +--__init__.py
-|      +--__init__.py
-+--manage.py
-+--migrations
-+--test.py
+
+    +--app  
+    |      +--config.py  
+    |      +--email.py  
+    |      +--extensions.py
+    |      +--forms
+    |      |      +--user.py
+    |      |      +--__init__.py
+    |      +--models
+    |      |      +--posts.py
+    |      |      +--user.py
+    |      |      +--__init__.py
+    |      +--static
+    |      +--templates
+    |      |      +--common
+    |      |      |      +--base.html
+    |      |      +--email
+    |      |      |      +--account_activate.html
+    |      |      +--errors
+    |      |      |      +--404.html
+    |      |      +--main
+    |      |      |      +--index.html
+    |      |      +--user
+    |      |      |      +--change_password.html
+    |      |      |      +--login.html
+    |      |      |      +--profile.html
+    |      |      |      +--register.html
+    |      +--views
+    |      |      +--main.py
+    |      |      +--posts.py
+    |      |      +--user.py
+    |      |      +--__init__.py
+    |      +--__init__.py
+    +--manage.py
+    +--migrations
+    +--test.py
 
 
 ###### 3、蓝本
