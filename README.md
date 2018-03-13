@@ -1,5 +1,5 @@
 # flask-blog
-### A small flask blog
+### simple flask blog
 ###### 1、简介: flask+python3.6+sqllite+pycharm
 ###### 2、项目目录结构：
 
